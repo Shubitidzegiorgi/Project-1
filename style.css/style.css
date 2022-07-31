@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #e0ebf1;
+   
+}
+.bg {
+    background-color: #FFB038;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.whitePaper {
+    width: 700px;
+    height: 500px;
+    background-color: #ffffff;
+}
+nav ul li {
+    float: left;
+    margin: 30px 55px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    font-weight: 550;
+    
+}
+nav ul li:hover {
+    border-bottom: 4px solid #FFB038;
+}
+.whitePaper .text {
+    padding: 150px 50px;
+}
+.text h2 {
+   font-size: 40px;
+   width: 400px;
+   margin-bottom: 50px;
+   font-family: 'Montserrat', sans-serif;
+}
+.text ul {
+    width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+.text button {
+    width: 170px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background-color: #FFB038;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.text button:hover {
+    background-color: black;
+}
+
+.text img {
+  position: absolute;
+  top: 90px;
+  right: 60px;
+  width: 400px;
+}
+
+.bg .leftBlock {
+    padding: 50px;
+    
+}
+.contact img {
+    width: 50px;
+    margin-right: 10px ;
+}
+.leftBlock h4 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+.firstUl {
+    float: left;
+    position: absolute;
+    right: 300px;
+    top: 520px;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+
+}
+.secondUl {
+    float: left;
+    position: absolute;
+    right: 50px;
+    top: 520px;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+    
+    
+}
+.reading, .blog, .store {
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 10px;
+}
+.reading:hover{
+    color: white;
+    background-color: black;
+}
+.blog:hover{
+    color: white;
+    background-color: black;
+}
+.store:hover{
+    color: white;
+    background-color: black;
+}
+
+.about, .work, .process {
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 10px;
+}
+.about:hover {
+    color: white;
+    background-color: black;
+}
+.work:hover {
+    color: white;
+    background-color: black;
+}
+.process:hover {
+    color: white;
+    background-color: black;
+}
+
+.blackLine {
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    margin: 100px auto 20px auto;
+}
+
+
+footer p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+    padding: 20px;
+}
